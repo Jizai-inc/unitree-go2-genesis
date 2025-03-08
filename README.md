@@ -4,6 +4,8 @@
 
 This is experimental code for sim2real with the go2 forward gait obtained from the Genesis locomotion example.
 
+Please refer https://note.com/b_sky_lab/n/n7c8bfc300041?sub_rt=share_pb
+
 ## Notice
 
 これは実験に用いたコードを共有するために公開されており，本リポジトリの内容を用いたことによる一切の損害に対する責任を負いません．
