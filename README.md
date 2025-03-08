@@ -1,4 +1,4 @@
-# go2_sim2real
+# unitree-go2-genesis
 
 ## About
 
@@ -15,14 +15,14 @@ This repository is made public in order to share the code used in the experiment
 1. Clone this repository
    ```bash
    cd ~
-   git clone <repo-url>
-   cd go2_sim2real
+   git clone https://github.com/Jizai-inc/unitree-go2-genesis
+   cd unitree-go2-genesis
    git submodule update --init --recursive
    ```
 
 1. Set venv
    ```bash
-   cd ~/go2_sim2real
+   cd ~/unitree-go2-genesis
    python -m venv venv
    source venv/bin/activate
    pip3 install --upgrade pip
@@ -35,23 +35,17 @@ This repository is made public in order to share the code used in the experiment
 
 1. Install unitree_sdk2_python
    ```bash
-   cd ~/go2_sim2real/unitree_sdk2_python
+   cd ~/unitree-go2-genesis/unitree_sdk2_python
    pip3 install -e .
    ```
 
 1. Install rsl_rl
    ```bash
-   cd ~/go2_sim2real/rsl_rl
+   cd ~/unitree-go2-genesis/rsl_rl
    git checkout v1.0.2 && pip3 install -e .
    ```
 
 ## Run
-
-1. Place trained weight
-   ```bash
-   cd ~/go2_sim2real/logs
-   cp <YOUR_TRAINED_WEIGHT_PATH> .
-   ```
 
 1. Connect to go2
 
@@ -59,9 +53,10 @@ This repository is made public in order to share the code used in the experiment
 
 1. Run script
    ```bash
-   cd ~/go2_sim2real/src
+   cd ~/unitree-go2-genesis/src
    python sim2real_walk_2.py <YOUR_IF_NAME>
    ```
 
 If go2 crouches down once, stands up, and starts walking, you've succeeded!
+
 **Let's enjoy your sim2real !**
