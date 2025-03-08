@@ -4,7 +4,7 @@
 
 This is experimental code for sim2real with the go2 forward gait obtained from the Genesis locomotion example.
 
-Please refer https://note.com/b_sky_lab/n/n7c8bfc300041?sub_rt=share_pb
+Please refer <https://note.com/b_sky_lab/n/n7c8bfc300041?sub_rt=share_pb>
 
 ## Notice
 
@@ -16,6 +16,7 @@ This repository is made public in order to share the code used in the experiment
 ## Installation
 
 1. Clone this repository
+
    ```bash
    cd ~
    git clone https://github.com/Jizai-inc/unitree-go2-genesis
@@ -24,6 +25,7 @@ This repository is made public in order to share the code used in the experiment
    ```
 
 1. Set venv
+
    ```bash
    cd ~/unitree-go2-genesis
    python -m venv venv
@@ -32,17 +34,20 @@ This repository is made public in order to share the code used in the experiment
    ```
 
 1. Install dependencies
+
    ```bash
    pip3 -r install requirements.txt
    ```
 
 1. Install unitree_sdk2_python
+
    ```bash
    cd ~/unitree-go2-genesis/unitree_sdk2_python
    pip3 install -e .
    ```
 
 1. Install rsl_rl
+
    ```bash
    cd ~/unitree-go2-genesis/rsl_rl
    git checkout v1.0.2 && pip3 install -e .
@@ -55,6 +60,7 @@ This repository is made public in order to share the code used in the experiment
    Please refer [Unitree Documentation / Go2 Quick Start](https://support.unitree.com/home/en/developer/Quick_start).
 
 1. Run script
+
    ```bash
    cd ~/unitree-go2-genesis/src
    python sim2real_walk_2.py <YOUR_IF_NAME>
