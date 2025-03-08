@@ -1,0 +1,9 @@
+[submodule "unitree_sdk2_python"]
+	path = unitree_sdk2_python
+    url = https://github.com/unitreerobotics/unitree_sdk2_python.git
+[submodule "rsl_rl"]
+	path = rsl_rl
+	url = https://github.com/leggedrobotics/rsl_rl
+[submodule "Genesis"]
+	path = Genesis
+	url = https://github.com/Genesis-Embodied-AI/Genesis.git
