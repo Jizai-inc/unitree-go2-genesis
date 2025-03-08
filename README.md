@@ -6,9 +6,10 @@ This is experimental code for sim2real with the go2 forward gait obtained from t
 
 ## Notice
 
-これは実験に用いたコードを共有するために公開されており，本リポジトリの内容を用いたことによる一切の損害に対する責任を負いません．自己責任の下でご使用ください．
+これは実験に用いたコードを共有するために公開されており，本リポジトリの内容を用いたことによる一切の損害に対する責任を負いません．
+自己責任の下でご使用ください．リファクタリングなどのメンテナンスは随時行われる予定です．
 
-This repository is made public in order to share the code used in the experiments, and we are not responsible for any damages caused by the use of the contents of this repository. Please use it at your own risk.
+This repository is made public in order to share the code used in the experiments, and we are not responsible for any damages caused by the use of the contents of this repository. Please use it at your own risk. Refactoring and other maintenance will be carried out from time to time.
 
 ## Installation
 
